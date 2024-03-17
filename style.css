@@ -1,0 +1,128 @@
+.container{
+    align-items: flex-start;
+    display: flex;
+}
+
+
+
+div.image {
+    background-image: url('image/img1.jpg');
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:30vw;
+    height: 100vh;
+    overflow: hidden;
+}
+.formContainer{
+    width:70vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.formintro{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 50px;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.introText{
+    margin-top: 200px;
+    margin-left: 50px;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:600;
+    margin-bottom: 50px;
+}
+
+.formUl{
+    list-style: none;
+    display: flex;
+    width: 50vw;
+    height: 30vh;
+    flex-direction: column;
+}
+
+.formRow{
+    display:flex;
+}
+
+
+.formLi{
+    width: 15vw;
+    display: inline;
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    font-size: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+}
+
+input{
+    border-width: 1px;
+}
+
+.logoBanner img {
+    max-height: 100%;
+    opacity: 1;
+}
+
+.logoBanner .logoText {
+    font-family: 'Nipun', sans-serif; 
+    color: white; 
+    font-size: 6rem; 
+    margin-left: 10px; 
+    opacity: 1;
+}
+
+
+.logoBanner {
+    background-color: black;
+    width:auto;
+    height: 125px;
+    margin-top: 250px;
+    opacity: 0.5;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+@font-face {
+    font-family: 'Nipun';
+    src: url('fonts/Norse-Bold.otf') format('opentype');
+}
+
+.submit{
+    background-color: #596D48;
+    width: 15vw;
+    height:5vh;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+}
+
+.formLi p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    display: inline;
+}
+
+.green{
+    display: inline;
+    color: #596D48;
+
+}
+body{
+    margin: 0px;
+}
